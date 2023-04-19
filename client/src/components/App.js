@@ -1,31 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+// import About from "./About";
+// import ProjectPage from "./ProjectPage";
+// import Home from "./Home";
+// import Layout from "./Layout";
+// import Animation from "./Animation";
+// import IndividualProjects from "./IndividualProjects";
+// import Contact from "./Contact";
 
 function App() {
   return (
-    <div className="App">
+    <div >
      
- <Switch>
- <NavBar />
-   <Route exact path="/about">
-     <About />
-   </Route>
-   <Route exact path="/projectpage">
-     <ProjectPage  />
-   </Route>
-   <Route exact path="/animation">
-     <Animation  />
-   </Route>
-   <Route path="/individualProjects/:id">
-     <IndividualProjects />
-   </Route>
-   <Route path="/contact">
-     <Contact/>
-   </Route>
-   <Route exact path="/">
-   <Home  />
-   </Route>
- </Switch>
+    
 
     </div>
   );
